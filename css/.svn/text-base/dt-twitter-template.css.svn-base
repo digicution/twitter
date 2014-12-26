@@ -1,0 +1,49 @@
+/* ------------------------------------------------------------ */
+/*            Digicution Simple Twitter CSS Template            */
+/* ------------------------------------------------------------ */
+
+/* Twitter Header Container */
+div.dt-twitter-header										{   }
+
+/* Twitter Follow Button */
+a.twitter-follow-button										{   }
+
+/* Header Follow Link (Not Button) */
+a.dt-twitter-header-follow									{   }
+
+/* Twitter UL Container */
+ul.dt-twitter												{   }
+
+/* Twitter LI Items (Single Tweets) */	
+ul.dt-twitter li											{   }
+ul.dt-twitter li.first										{   }
+ul.dt-twitter li.post_even									{   }
+ul.dt-twitter li.last										{   }
+ul.dt-twitter li.last_even									{   }
+
+/* Tweet Avatar Link & Img Styling */
+a.dt-twitter-avatar-link 									{   }
+img.dt-twitter-avatar										{   }
+
+/* Tweet Wrapper */
+span.dt-twitter-tweet										{   }
+
+/* Tweet Styling */
+div.dt-twitter-fullname a									{   }
+div.dt-twitter-screenname a									{   }
+div.dt-twitter-readdate a									{   }
+div.dt-twitter-tweetbody									{   }
+div.dt-twitter-tweetbody a									{   }
+
+/* Tweet End Container & Action Buttons */
+div.dt-twitter-end-container								{   }
+div.dt-twitter-end-container a.dt-twitter-button-expand		{   }
+div.dt-twitter-end-container a.dt-twitter-button-favourite	{   }
+div.dt-twitter-end-container a.dt-twitter-button-retweet	{   }
+div.dt-twitter-end-container a.dt-twitter-button-reply		{   }
+
+/* Ending Text Container (After Tweet List & Only 4 Txt) */
+div.dt-twitter-p-container									{   }
+
+/* Bottom Text Follow Link */
+a.dt-twitter-button											{   }

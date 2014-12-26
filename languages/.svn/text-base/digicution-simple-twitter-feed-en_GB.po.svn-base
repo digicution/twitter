@@ -1,0 +1,993 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digicution Simple Twitter Feed\n"
+"POT-Creation-Date: 2014-01-24 16:01-0000\n"
+"PO-Revision-Date: 2014-01-24 16:01-0000\n"
+"Last-Translator: \n"
+"Language-Team: Digicution <dan@digicution.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: digicution-twitter.php:195
+msgid "Digicution Twitter"
+msgstr ""
+
+#: digicution-twitter.php:210
+msgid ""
+"Simply add the title for your Twitter Feed in the box above or leave it "
+"blank if you just wish to show the Feed on it's own."
+msgstr ""
+
+#: digicution-twitter.php:212
+msgid "All the rest of the Twitter Feed options are set in the "
+msgstr ""
+
+#: digicution-twitter.php:212
+msgid "Simple Twitter Settings"
+msgstr ""
+
+#: includes/dt-settings.php:320
+msgid "Digicution Simple Twitter Feed"
+msgstr ""
+
+#: includes/dt-settings.php:321
+msgid "Found a bug or have a feature request?"
+msgstr ""
+
+#: includes/dt-settings.php:321
+msgid "Click Here"
+msgstr ""
+
+#: includes/dt-settings.php:352 includes/dt-settings.php:422
+msgid "Twitter App Settings"
+msgstr ""
+
+#: includes/dt-settings.php:360 includes/dt-settings.php:368
+#: includes/dt-settings.php:542
+msgid "General Settings"
+msgstr ""
+
+#: includes/dt-settings.php:361 includes/dt-settings.php:369
+msgid "Automatic Styling"
+msgstr ""
+
+#: includes/dt-settings.php:362 includes/dt-settings.php:370
+#: includes/dt-settings.php:1228
+msgid "Manual Styling"
+msgstr ""
+
+#: includes/dt-settings.php:363 includes/dt-settings.php:371
+#: includes/dt-settings.php:1312
+msgid "How To Integrate"
+msgstr ""
+
+#: includes/dt-settings.php:379
+msgid "Error: cURL Not Available"
+msgstr ""
+
+#: includes/dt-settings.php:405 includes/dt-settings.php:525
+#: includes/dt-settings.php:764
+msgid "Validation Error"
+msgstr ""
+
+#: includes/dt-settings.php:405 includes/dt-settings.php:525
+#: includes/dt-settings.php:764
+msgid "Success"
+msgstr ""
+
+#: includes/dt-settings.php:429 includes/dt-settings.php:436
+msgid ""
+"In order to use this plugin, you must first create a Twitter application so "
+"that you can use the OAuth authentication techniques required for the plugin "
+"to function."
+msgstr ""
+
+#: includes/dt-settings.php:429 includes/dt-settings.php:436
+msgid "Head to "
+msgstr ""
+
+#: includes/dt-settings.php:429 includes/dt-settings.php:436
+msgid ""
+" to create a Twitter Application and then simply enter the Application "
+"details in the fields below."
+msgstr ""
+
+#: includes/dt-settings.php:429
+msgid "Once you've done this, the plugin will become fully active."
+msgstr ""
+
+#: includes/dt-settings.php:436
+msgid ""
+"If you're having problems with this plugin, please double check that you "
+"have the correct details from your Twitter App entered in the correct boxes "
+"below."
+msgstr ""
+
+#: includes/dt-settings.php:445
+msgid "Access Token:"
+msgstr ""
+
+#: includes/dt-settings.php:446
+msgid "Please Enter Your Twitter Application Access Token"
+msgstr ""
+
+#: includes/dt-settings.php:451
+msgid "Access Token Secret:"
+msgstr ""
+
+#: includes/dt-settings.php:452
+msgid "Please Enter Your Twitter Application Access Token Secret"
+msgstr ""
+
+#: includes/dt-settings.php:457
+msgid "API Key:"
+msgstr ""
+
+#: includes/dt-settings.php:458
+msgid "Please Enter Your Twitter Application API Key"
+msgstr ""
+
+#: includes/dt-settings.php:463
+msgid "API Secret:"
+msgstr ""
+
+#: includes/dt-settings.php:464
+msgid "Please Enter Your Twitter Application API Secret"
+msgstr ""
+
+#: includes/dt-settings.php:475
+msgid "Update Application Options"
+msgstr ""
+
+#: includes/dt-settings.php:494
+msgid "Error: cURL Is Not Available"
+msgstr ""
+
+#: includes/dt-settings.php:499
+msgid ""
+"Unfortunately, due to the changes made to the Twitter API on June 11th 2013 "
+"when it was upgraded to Version 1.1, all Twitter requests require OAuth "
+"authorisation."
+msgstr ""
+
+#: includes/dt-settings.php:499
+msgid ""
+"This application requires PHP's built in cURL functions in order to retrieve "
+"your Tweets from Twitter and unfortunately, the server that your Wordpress "
+"blog is hosted on does not seem to have this functionality enabled."
+msgstr ""
+
+#: includes/dt-settings.php:499
+msgid ""
+"Please speak to your server administrator and get them to enable cURL on "
+"your installation in order to use this plugin."
+msgstr ""
+
+#: includes/dt-settings.php:544
+msgid "These settings control what features are outputted by the plugin."
+msgstr ""
+
+#: includes/dt-settings.php:544
+msgid ""
+"Please use the options below to choose which features you want in your "
+"Twitter Feed :)"
+msgstr ""
+
+#: includes/dt-settings.php:549
+msgid "Twitter Username:"
+msgstr ""
+
+#: includes/dt-settings.php:550
+msgid "Please Enter Your Twitter Username / Screen Name"
+msgstr ""
+
+#: includes/dt-settings.php:555
+msgid "Number Of Tweets To Display:"
+msgstr ""
+
+#: includes/dt-settings.php:556
+msgid ""
+"Please Indicate How Many Tweets You Would Like To Display In Your Twitter "
+"Feed"
+msgstr ""
+
+#: includes/dt-settings.php:561
+msgid "Twitter Update Frequency:"
+msgstr ""
+
+#: includes/dt-settings.php:562
+msgid ""
+"Please Select How Often You Would Like Your Twitter Feed To Update (Please "
+"Check The "
+msgstr ""
+
+#: includes/dt-settings.php:562
+msgid "Rate Limiting Documentation"
+msgstr ""
+
+#: includes/dt-settings.php:562
+msgid " Before Changing This Value)"
+msgstr ""
+
+#: includes/dt-settings.php:564
+msgid "1 Hour"
+msgstr ""
+
+#: includes/dt-settings.php:565
+msgid "45 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:566
+msgid "30 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:567
+msgid "25 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:568
+msgid "20 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:569
+msgid "15 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:570
+msgid "10 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:571
+msgid "5 Minutes"
+msgstr ""
+
+#: includes/dt-settings.php:576
+msgid "Display Profile Images:"
+msgstr ""
+
+#: includes/dt-settings.php:577
+msgid ""
+"Please Indicate Whether You Would Like To Display Profile Images Next To "
+"Each Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:579 includes/dt-settings.php:588
+#: includes/dt-settings.php:607 includes/dt-settings.php:616
+#: includes/dt-settings.php:636 includes/dt-settings.php:672
+#: includes/dt-settings.php:681 includes/dt-settings.php:701
+#: includes/dt-settings.php:711 includes/dt-settings.php:721
+#: includes/dt-settings.php:731
+msgid "Yes"
+msgstr ""
+
+#: includes/dt-settings.php:580 includes/dt-settings.php:589
+#: includes/dt-settings.php:599 includes/dt-settings.php:608
+#: includes/dt-settings.php:617 includes/dt-settings.php:637
+#: includes/dt-settings.php:653 includes/dt-settings.php:673
+#: includes/dt-settings.php:682 includes/dt-settings.php:692
+#: includes/dt-settings.php:702 includes/dt-settings.php:712
+#: includes/dt-settings.php:722 includes/dt-settings.php:732
+msgid "No"
+msgstr ""
+
+#: includes/dt-settings.php:585
+msgid "Display Re-Tweets:"
+msgstr ""
+
+#: includes/dt-settings.php:586
+msgid ""
+"Please Indicate Whether You Would Like To Display Native Re-Tweets From Your "
+"Twitter Feed"
+msgstr ""
+
+#: includes/dt-settings.php:594
+msgid "Display Follow Link After Tweets:"
+msgstr ""
+
+#: includes/dt-settings.php:595
+msgid ""
+"Please Indicate Whether You Would Like A Link To Your Twitter Profile At The "
+"Bottom Of The Feed"
+msgstr ""
+
+#: includes/dt-settings.php:597 includes/dt-settings.php:651
+msgid "Follow Button"
+msgstr ""
+
+#: includes/dt-settings.php:598 includes/dt-settings.php:652
+msgid "Text Link"
+msgstr ""
+
+#: includes/dt-settings.php:604
+msgid "Link Hashtags:"
+msgstr ""
+
+#: includes/dt-settings.php:605
+msgid ""
+"Please Indicate Whether You Would Like To Convert Twitter Hash Tags To Links"
+msgstr ""
+
+#: includes/dt-settings.php:613
+msgid "Link @usernames:"
+msgstr ""
+
+#: includes/dt-settings.php:614
+msgid ""
+"Please Indicate Whether You Would Like To Convert Twitter Usernames To Links"
+msgstr ""
+
+#: includes/dt-settings.php:628
+msgid "Header Settings"
+msgstr ""
+
+#: includes/dt-settings.php:633
+msgid "Display Header:"
+msgstr ""
+
+#: includes/dt-settings.php:634
+msgid ""
+"Please Indicate Whether You Would Like To Display A Title Header For Your "
+"Tweets"
+msgstr ""
+
+#: includes/dt-settings.php:642
+msgid "Header Title:"
+msgstr ""
+
+#: includes/dt-settings.php:643
+msgid "Please Enter A Title For Your Header"
+msgstr ""
+
+#: includes/dt-settings.php:648
+msgid "Display Follow Link In Header:"
+msgstr ""
+
+#: includes/dt-settings.php:649
+msgid ""
+"Please Indicate Whether You Would Like A Link To Your Twitter Profile In "
+"Your Header"
+msgstr ""
+
+#: includes/dt-settings.php:664
+msgid "Single Tweet Settings (What To Display For Each Tweet)"
+msgstr ""
+
+#: includes/dt-settings.php:669
+msgid "Display Full Name:"
+msgstr ""
+
+#: includes/dt-settings.php:670
+msgid ""
+"Please Indicate Whether You Would Like To Display Full Name At The Top Of "
+"Each Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:678
+msgid "Display Screen Name:"
+msgstr ""
+
+#: includes/dt-settings.php:679
+msgid ""
+"Please Indicate Whether You Would Like To Display Screen Name At The Top Of "
+"Each Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:687
+msgid "Display Tweet Date:"
+msgstr ""
+
+#: includes/dt-settings.php:688
+msgid ""
+"Please Indicate Whether You Would Like To Display The Approximate Time / "
+"Date Of Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:690
+msgid "After Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:691
+msgid "Before Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:697
+msgid "Display Expand Tweet Option:"
+msgstr ""
+
+#: includes/dt-settings.php:698
+msgid ""
+"Please Indicate Whether You Would Like An Expand Tweet Option Link After "
+"Each Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:700 includes/dt-settings.php:710
+#: includes/dt-settings.php:720 includes/dt-settings.php:730
+msgid "Icon"
+msgstr ""
+
+#: includes/dt-settings.php:707
+msgid "Display Reply To Tweet Option:"
+msgstr ""
+
+#: includes/dt-settings.php:708
+msgid ""
+"Please Indicate Whether You Would Like A Reply To Tweet Option Link After "
+"Each Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:717
+msgid "Display Re-Tweet Option:"
+msgstr ""
+
+#: includes/dt-settings.php:718
+msgid ""
+"Please Indicate Whether You Would Like A Re-Tweet Option Link After Each "
+"Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:727
+msgid "Display Favourite Option:"
+msgstr ""
+
+#: includes/dt-settings.php:728
+msgid ""
+"Please Indicate Whether You Would Like An Add To Favourites Option Link "
+"After Each Tweet"
+msgstr ""
+
+#: includes/dt-settings.php:743
+msgid "Update General Options"
+msgstr ""
+
+#: includes/dt-settings.php:781
+msgid "Automatic Styling Settings"
+msgstr ""
+
+#: includes/dt-settings.php:783
+msgid "These settings control how your Twitter features are displayed."
+msgstr ""
+
+#: includes/dt-settings.php:783
+msgid ""
+"If you want to style your Twitter feed using the options below, choose \"Yes "
+"- Use Automatic Styling\"."
+msgstr ""
+
+#: includes/dt-settings.php:783
+msgid ""
+"However, if you want to style your Twitter feed manually using CSS, please "
+"select \"No - Use Manual Styling\" and download the CSS template from the "
+"Manual Styling section."
+msgstr ""
+
+#: includes/dt-settings.php:788
+msgid "Use Automatic Styling:"
+msgstr ""
+
+#: includes/dt-settings.php:789
+msgid "Select Yes To Use The Settings On This Page For Your Twitter Feed"
+msgstr ""
+
+#: includes/dt-settings.php:790
+msgid ""
+"Select No To Disable All Styling So You Can Manually Style Your Twitter Feed "
+"Using CSS"
+msgstr ""
+
+#: includes/dt-settings.php:792
+msgid "Yes - Use Automatic Styling"
+msgstr ""
+
+#: includes/dt-settings.php:793
+msgid "No - Use Manual Styling"
+msgstr ""
+
+#: includes/dt-settings.php:804
+msgid "Main Container Settings"
+msgstr ""
+
+#: includes/dt-settings.php:809
+msgid "Main Container Width:"
+msgstr ""
+
+#: includes/dt-settings.php:810
+msgid ""
+"Choose The Main Container Width For The Twitter Feed In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:813 includes/dt-settings.php:835
+#: includes/dt-settings.php:846 includes/dt-settings.php:857
+#: includes/dt-settings.php:868 includes/dt-settings.php:879
+#: includes/dt-settings.php:890 includes/dt-settings.php:901
+#: includes/dt-settings.php:912 includes/dt-settings.php:923
+#: includes/dt-settings.php:945 includes/dt-settings.php:992
+#: includes/dt-settings.php:1003 includes/dt-settings.php:1014
+#: includes/dt-settings.php:1025 includes/dt-settings.php:1036
+#: includes/dt-settings.php:1047 includes/dt-settings.php:1058
+#: includes/dt-settings.php:1069 includes/dt-settings.php:1080
+#: includes/dt-settings.php:1119 includes/dt-settings.php:1130
+#: includes/dt-settings.php:1141 includes/dt-settings.php:1163
+#: includes/dt-settings.php:1188 includes/dt-settings.php:1199
+msgid "Pixels"
+msgstr ""
+
+#: includes/dt-settings.php:814 includes/dt-settings.php:836
+#: includes/dt-settings.php:847 includes/dt-settings.php:858
+#: includes/dt-settings.php:869 includes/dt-settings.php:880
+#: includes/dt-settings.php:891 includes/dt-settings.php:902
+#: includes/dt-settings.php:913 includes/dt-settings.php:924
+#: includes/dt-settings.php:993 includes/dt-settings.php:1004
+#: includes/dt-settings.php:1015 includes/dt-settings.php:1026
+#: includes/dt-settings.php:1037 includes/dt-settings.php:1048
+#: includes/dt-settings.php:1059 includes/dt-settings.php:1070
+#: includes/dt-settings.php:1081 includes/dt-settings.php:1120
+#: includes/dt-settings.php:1131 includes/dt-settings.php:1142
+#: includes/dt-settings.php:1189 includes/dt-settings.php:1200
+msgid "Percent"
+msgstr ""
+
+#: includes/dt-settings.php:820
+msgid "Main Container BG Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:821
+msgid ""
+"Choose The Main Container Background Colour Or Select Disabled To Make It "
+"Transparent"
+msgstr ""
+
+#: includes/dt-settings.php:822 includes/dt-settings.php:968
+#: includes/dt-settings.php:979
+msgid "No Background Colour"
+msgstr ""
+
+#: includes/dt-settings.php:824 includes/dt-settings.php:970
+#: includes/dt-settings.php:981
+msgid "Enabled"
+msgstr ""
+
+#: includes/dt-settings.php:825 includes/dt-settings.php:971
+#: includes/dt-settings.php:982
+msgid "Disabled"
+msgstr ""
+
+#: includes/dt-settings.php:831
+msgid "Main Container Top Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:832
+msgid ""
+"Choose The Top Padding For The Main Container (Spacing Between Main "
+"Container &amp; Tweets) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:842
+msgid "Main Container Bottom Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:843
+msgid ""
+"Choose The Bottom Padding For The Main Container (Spacing Between Main "
+"Container &amp; Tweets) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:853
+msgid "Main Container Left Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:854
+msgid ""
+"Choose The Left Padding For The Main Container (Spacing Between Main "
+"Container &amp; Tweets) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:864
+msgid "Main Container Right Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:865
+msgid ""
+"Choose The Right Padding For The Main Container (Spacing Between Main "
+"Container &amp; Tweets) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:875
+msgid "Main Container Top Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:876
+msgid ""
+"Choose The Top Margin For The Main Container (Spacing Around The Top Of The "
+"Main Container) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:886
+msgid "Main Container Bottom Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:887
+msgid ""
+"Choose The Bottom Margin For The Main Container (Spacing Around The Bottom "
+"Of The Main Container) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:897
+msgid "Main Container Left Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:898
+msgid ""
+"Choose The Left Margin For The Main Container (Spacing Around The Left Of "
+"The Main Container) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:908
+msgid "Main Container Right Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:909
+msgid ""
+"Choose The Right Margin For The Main Container (Spacing Around The Right Of "
+"The Main Container) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:919
+msgid "Main Container Corner Radius:"
+msgstr ""
+
+#: includes/dt-settings.php:920
+msgid ""
+"Choose The Rounded Corner Radius Of The Main Container (0 For Square Edges)"
+msgstr ""
+
+#: includes/dt-settings.php:936
+msgid "Tweet Settings"
+msgstr ""
+
+#: includes/dt-settings.php:941
+msgid "Tweet Font Size:"
+msgstr ""
+
+#: includes/dt-settings.php:942
+msgid "Choose The Size Of Your Tweet Text In Pixels / Ems"
+msgstr ""
+
+#: includes/dt-settings.php:946 includes/dt-settings.php:1164
+msgid "Ems"
+msgstr ""
+
+#: includes/dt-settings.php:952
+msgid "Tweet Text Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:953
+msgid "Choose The Colour For Your Tweets Text"
+msgstr ""
+
+#: includes/dt-settings.php:959
+msgid "Tweet Link Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:960
+msgid "Choose The Colour For Your Tweets Links"
+msgstr ""
+
+#: includes/dt-settings.php:966
+msgid "Tweet Main BG Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:967
+msgid ""
+"Choose The Background Colour For Your Tweets Or Select Disabled To Make Them "
+"Transparent"
+msgstr ""
+
+#: includes/dt-settings.php:977
+msgid "Tweet Alternate BG Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:978
+msgid ""
+"Choose The Background Colour For Each Alternate Tweet Or Select Disabled To "
+"Use The Same Value As The Main Tweet BG Colour"
+msgstr ""
+
+#: includes/dt-settings.php:988
+msgid "Tweet Top Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:989
+msgid ""
+"Choose The Top Margin For The Tweet (Spacing Around The Top Of The Tweet "
+"After Padding &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:999
+msgid "Tweet Bottom Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:1000
+msgid ""
+"Choose The Bottom Margin For The Tweet (Spacing Around The Bottom Of The "
+"Tweet After Padding &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1010
+msgid "Tweet Left Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:1011
+msgid ""
+"Choose The Left Margin For The Tweet (Spacing Around The Left Of The Tweet "
+"After Padding &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1021
+msgid "Tweet Right Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:1022
+msgid ""
+"Choose The Right Margin For The Tweet (Spacing Around The Right Of The Tweet "
+"After Padding &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1032
+msgid "Tweet Top Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:1033
+msgid ""
+"Choose The Top Padding For The Tweet (Spacing Around The Top Of The Tweet "
+"Before Margin &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1043
+msgid "Tweet Bottom Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:1044
+msgid ""
+"Choose The Bottom Padding For The Tweet (Spacing Around The Bottom Of The "
+"Tweet Before Margin &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1054
+msgid "Tweet Left Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:1055
+msgid ""
+"Choose The Left Padding For The Tweet (Spacing Around The Left Of The Tweet "
+"Before Margin &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1065
+msgid "Tweet Right Padding:"
+msgstr ""
+
+#: includes/dt-settings.php:1066
+msgid ""
+"Choose The Right Padding For The Tweet (Spacing Around The Right Of The "
+"Tweet Before Margin &amp; Borders) In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1076
+msgid "Tweet Corner Radius:"
+msgstr ""
+
+#: includes/dt-settings.php:1077
+msgid "Choose The Rounded Corner Radius Of The Tweet (0 For Square Edges)"
+msgstr ""
+
+#: includes/dt-settings.php:1093
+msgid "Image Settings"
+msgstr ""
+
+#: includes/dt-settings.php:1098
+msgid "Tweet Image Size:"
+msgstr ""
+
+#: includes/dt-settings.php:1099
+msgid "Choose The Size Of Your Tweet Image In Pixels"
+msgstr ""
+
+#: includes/dt-settings.php:1101
+msgid "10px Width x 10px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1102
+msgid "15px Width x 15px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1103
+msgid "20px Width x 20px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1104
+msgid "25px Width x 25px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1105
+msgid "30px Width x 30px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1106
+msgid "35px Width x 35px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1107
+msgid "40px Width x 40px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1108
+msgid "45px Width x 45px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1109
+msgid "50px Width x 50px Height"
+msgstr ""
+
+#: includes/dt-settings.php:1115
+msgid "Tweet Image Corner Radius:"
+msgstr ""
+
+#: includes/dt-settings.php:1116
+msgid ""
+"Choose The Rounded Corner Radius Of The Twitter Profile Image (0 For Square "
+"Images / 50% For Circles)"
+msgstr ""
+
+#: includes/dt-settings.php:1126
+msgid "Tweet Image Margin Right:"
+msgstr ""
+
+#: includes/dt-settings.php:1127
+msgid ""
+"Choose The Margin To The Right Of The Image (To Space Out The Text) In "
+"Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1137
+msgid "Tweet Image Margin Bottom:"
+msgstr ""
+
+#: includes/dt-settings.php:1138
+msgid ""
+"Choose The Margin At The Bottom Of The Image (To Space Out Overflow Text) In "
+"Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1154
+msgid "Tweet Icon Settings"
+msgstr ""
+
+#: includes/dt-settings.php:1159
+msgid "Tweet Icon Font Size:"
+msgstr ""
+
+#: includes/dt-settings.php:1160
+msgid "Choose The Size Of Your Tweet Icon In Pixels / Ems"
+msgstr ""
+
+#: includes/dt-settings.php:1170
+msgid "Tweet Icon Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:1171
+msgid ""
+"Choose The Colour For Your Tweet Icons (Leave Blank To Use Your Theme's "
+"Default Settings)"
+msgstr ""
+
+#: includes/dt-settings.php:1177
+msgid "Tweet Icon Hover Colour:"
+msgstr ""
+
+#: includes/dt-settings.php:1178
+msgid ""
+"Choose The Hover Colour For Your Tweet Icons (Leave Blank To Use Your "
+"Theme's Default Settings)"
+msgstr ""
+
+#: includes/dt-settings.php:1184
+msgid "Tweet Icons Top Margin:"
+msgstr ""
+
+#: includes/dt-settings.php:1185
+msgid "Choose The Top Margin For The Tweet Icons In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1195
+msgid "Tweet Icon Spacing:"
+msgstr ""
+
+#: includes/dt-settings.php:1196
+msgid "Choose The Spacing Between Icons In Pixels / Percent"
+msgstr ""
+
+#: includes/dt-settings.php:1212
+msgid "Update Styling Options"
+msgstr ""
+
+#: includes/dt-settings.php:1233
+msgid ""
+"OK, so the automatic styling not good enough for ya eh?  Fair play, I "
+"generally style up the tweets manually anyway so I've included a CSS "
+"Template for you to copy and paste into your theme's stylesheet (usually "
+"style.css in the main theme directory) and you can then amend the Twitter "
+"Feed to your liking with Custom CSS... Enjoy :)"
+msgstr ""
+
+#: includes/dt-settings.php:1234
+msgid "Simply click the button below to download."
+msgstr ""
+
+#: includes/dt-settings.php:1235
+msgid "Download CSS Template"
+msgstr ""
+
+#: includes/dt-settings.php:1317
+msgid ""
+"So, you've configured your Twitter App, sorted your settings and styled up "
+"your tweets...  So, how do you actually go about displaying them?  Well, "
+"there are three options :"
+msgstr ""
+
+#: includes/dt-settings.php:1318
+msgid "1. Drag & Drop Widget"
+msgstr ""
+
+#: includes/dt-settings.php:1319
+msgid "If your current theme has widget areas available, you can head to "
+msgstr ""
+
+#: includes/dt-settings.php:1319
+msgid "Appearance -> Widgets"
+msgstr ""
+
+#: includes/dt-settings.php:1319
+msgid " and simply Drag the "
+msgstr ""
+
+#: includes/dt-settings.php:1319
+msgid "\"Digicution Twitter\""
+msgstr ""
+
+#: includes/dt-settings.php:1319
+msgid " widget into the widget area where you want your tweets to appear."
+msgstr ""
+
+#: includes/dt-settings.php:1320
+msgid "2. Use The Shortcode"
+msgstr ""
+
+#: includes/dt-settings.php:1321
+msgid ""
+"You can drop the Twitter Widget into any standard Wordpress Post or Page "
+"simply by pasting the shortcode below into the content section of the post/"
+"page:"
+msgstr ""
+
+#: includes/dt-settings.php:1322
+msgid "3. Drop The Function In Manually"
+msgstr ""
+
+#: includes/dt-settings.php:1323
+msgid ""
+"Or, for the more versed in theme customisation, you can simply drop the PHP "
+"function directly into your theme files where you want the Twitter Feed to "
+"appear.  To do this, simply copy and paste the code below into your theme "
+"where you want the Feed to appear:"
+msgstr ""
+
+#: includes/dt-settings.php:1352
+msgid "Created By Dan Perkins @ Digicution"
+msgstr ""

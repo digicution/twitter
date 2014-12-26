@@ -1,0 +1,33 @@
+/*//////////////////////////////////////////////////////////
+//////  Digicution Simple Twitter Feed Frontend CSS  ///////
+//////////////////////////////////////////////////////////*/
+
+@font-face {
+	font-family: 'dt-twitter';
+	src:url('../fonts/dt-twitter.eot');
+	src:url('../fonts/dt-twitter.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/dt-twitter.ttf') format('truetype'),
+		url('../fonts/dt-twitter.woff') format('woff'),
+		url('../fonts/dt-twitter.svg#dt-twitter') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="dt-twitter-icon-"], [class*=" dt-twitter-icon-"] {
+	font-family: 'dt-twitter';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.dt-twitter-icon-reply:before { content: "\e601"; }
+.dt-twitter-icon-expand:before { content: "\e602"; }
+.dt-twitter-icon-favourite:before { content: "\e603"; }
+.dt-twitter-icon-retweet:before { content: "\e604"; }

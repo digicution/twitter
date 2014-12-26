@@ -1,0 +1,160 @@
+/*///////////////////////////////////////////////////////
+//////  Digicution Simple Twitter Feed Admin CSS  ///////
+///////////////////////////////////////////////////////*/
+
+/* New Header */
+div#dt_main_header										{ background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9Ijg2NHB4IiBoZWlnaHQ9IjkyN3B4IiB2aWV3Qm94PSIwIDAgODY0IDkyNyIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpza2V0Y2g9Imh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaC9ucyI+CiAgICA8dGl0bGU+U2ltcGxlIFR3aXR0ZXIgTG9nbzwvdGl0bGU+CiAgICA8ZGVzY3JpcHRpb24+Q3JlYXRlZCB3aXRoIFNrZXRjaCAoaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoKTwvZGVzY3JpcHRpb24+CiAgICA8ZGVmcz48L2RlZnM+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBza2V0Y2g6dHlwZT0iTVNQYWdlIj4KICAgICAgICA8cGF0aCBkPSJNNDMyLDkyNyBDNjcwLjU4NzAyNCw5MjcgODY0LDczMy41ODcwMjQgODY0LDQ5NSBDODY0LDI1Ni40MTI5NzYgNjcwLjU4NzAyNCw2MyA0MzIsNjMgQzE5My40MTI5NzYsNjMgMCwyNTYuNDEyOTc2IDAsNDk1IEMwLDczMy41ODcwMjQgMTkzLjQxMjk3Niw5MjcgNDMyLDkyNyBaIE03NTksMjkxLjk3NTI0OSBDNzM0Ljg2NTY5OCwzMDIuNjU4NzcxIDcwOC45MjQxNDMsMzA5Ljg3NjA0NyA2ODEuNzAzMzcyLDMxMy4xMjMwMSBDNzA5LjQ4ODMyNCwyOTYuNTAxOTU4IDczMC44MzEyOTEsMjcwLjE4MjY1MyA3NDAuODc3OTQ5LDIzOC44MTk0NDIgQzcxNC44NzA3OTcsMjU0LjIxMzAwMSA2ODYuMDY5MDU4LDI2NS4zODc0OTggNjU1LjQxMDg3OCwyNzEuNDEwMTA3IEM2MzAuODYzMjksMjQ1LjMwNjgwMyA1OTUuODg1MzIzLDIyOSA1NTcuMTc0NzAxLDIyOSBDNDgyLjg0OTc5MywyMjkgNDIyLjU4NjI1MiwyODkuMTMwODYgNDIyLjU4NjI1MiwzNjMuMzAwMjYyIEM0MjIuNTg2MjUyLDM3My44MjY2NzkgNDIzLjc3Njg4MywzODQuMDc4MTYxIDQyNi4wNzI4ODgsMzkzLjkwNzQxMiBDMzE0LjIxODEyLDM4OC4zMDcwNzIgMjE1LjA1MDQ1MiwzMzQuODM3MDE1IDE0OC42Njk3MDMsMjUzLjU4MTI5NiBDMTM3LjA4NDcyNSwyNzMuNDE2NTI0IDEzMC40NDU5ODUsMjk2LjQ4NTYyMiAxMzAuNDQ1OTg1LDMyMS4wOTk2NjggQzEzMC40NDU5ODUsMzY3LjY5NjA4OCAxNTQuMjA2MzYsNDA4LjgwMzQ3MSAxOTAuMzE5MTg5LDQzMi44ODcyMjggQzE2OC4yNTc4OTYsNDMyLjE5MDA2MyAxNDcuNTA1MzExLDQyNi4xNDc4MzUgMTI5LjM2MDMxLDQxNi4wODk0OSBDMTI5LjM0NTAxLDQxNi42NDkxNjkgMTI5LjM0NTAxLDQxNy4yMTIxMzEgMTI5LjM0NTAxLDQxNy43Nzg0MTMgQzEyOS4zNDUwMSw0ODIuODQ4NDggMTc1LjczNzQzOCw1MzcuMTI2OTY2IDIzNy4zMDYzOTcsNTQ5LjQ3MzI2NSBDMjI2LjAxMzM0LDU1Mi41NDM0NjUgMjE0LjEyMzMyMiw1NTQuMTgzMzAyIDIwMS44NDk1MDgsNTU0LjE4MzMwMiBDMTkzLjE3NzE5NCw1NTQuMTgzMzAyIDE4NC43NDc2MTEsNTUzLjMzODg0MSAxNzYuNTI3OTAyLDU1MS43NzQyNzQgQzE5My42NTYwNzgsNjA1LjEyOTc0NiAyNDMuMzU4MDA3LDY0My45NTkwMjEgMzAyLjI1Mzc4Myw2NDUuMDM5MTQxIEMyNTYuMTkyNjczLDY4MS4wNjMzNDIgMTk4LjE2MjgyOCw3MDIuNTM1MTYyIDEzNS4xMDQ3LDcwMi41MzUxNjIgQzEyNC4yNDEzLDcwMi41MzUxNjIgMTEzLjUyODgzMiw3MDEuODk2ODkyIDEwMyw3MDAuNjU2MzQ2IEMxNjIuNTYxNjI0LDczOC43NjU1NTQgMjMzLjMwNDc3LDc2MSAzMDkuMzA5MDYxLDc2MSBDNTU2Ljg2MDkwMiw3NjEgNjkyLjIzNjU2NCw1NTYuMzUzNDI4IDY5Mi4yMzY1NjQsMzc4Ljg3MDU4NSBDNjkyLjIzNjU2NCwzNzMuMDQ3Njc4IDY5Mi4xMDUzNjgsMzY3LjI1NzQ4MyA2OTEuODQ2MjY2LDM2MS40OTM1MSBDNzE4LjEzODc2LDM0Mi41NjE2NCA3NDAuOTU0NDg2LDMxOC45MDk4ODUgNzU4Ljk5NzgyLDI5MS45NzUyNDkgTDc1OSwyOTEuOTc1MjQ5IFoiIGlkPSJPdmFsLTEiIGZpbGw9IiMwMDAwMDAiIHNrZXRjaDp0eXBlPSJNU1NoYXBlR3JvdXAiPjwvcGF0aD4KICAgICAgICA8ZyBpZD0iVHdpdHRlcl9iaXJkX2xvZ29fMjAxMiIgc2tldGNoOnR5cGU9Ik1TTGF5ZXJHcm91cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAzLjAwMDAwMCwgMjI5LjAwMDAwMCkiPgogICAgICAgICAgICA8ZyBpZD0ibGF5ZXIxIj48L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=") center left no-repeat; background-size:50px; width:100%; height:auto; margin-top:10px; padding-top:10px; padding-bottom:10px; margin-bottom:20px; }									
+h2.dt_header 											{ margin-left:65px; }
+.request												{ margin-left:65px; }
+
+/* Form CSS */
+table 													{ border:none; }
+.widefat 												{ margin-bottom:20px; }
+.map-display input 										{ margin-right: 5px; }
+.map-dimensions input 									{ width: 50px; margin-right: 5px; margin-left:5px; }
+.search-type input 										{ margin-right: 5px; }
+
+/* CSS Reset */
+#dt div, #dt span, #dt applet, #dt object, #dt iframe, 
+#dt h1, #dt h3, #dt h4, #dt h5, #dt h6, #dt blockquote, 
+#dt pre, #dt a, #dt abbr, #dt acronym, #dt address, 
+#dt big, #dt cite, #dt code, #dt del, #dt dfn, #dt em, 
+#dt font, #dt img, #dt ins, #dt kbd, #dt q, #dt s, 
+#dt samp, #dt strike, #dt strong, #dt sub, #dt sup, 
+#dt tt, #dt var, #dt b, #dt u, #dt i, #dt center, 
+#dt dl, #dt dt, #dt dd, #dt ol, #dt ul, #dt li,
+#dt fieldset, #dt form, #dt label, #dt legend, 
+#dt caption  											{ margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; }
+#dt ol, #dt ul 											{ list-style:none; margin: 0; padding: 0; }
+#dt :focus 												{ outline: 0; }
+#dt table 												{ border-collapse: collapse; border-spacing: 0; }
+
+/* Globals CSS */
+#dt 													{ width:auto; font-size: 13px; }
+#dt a 													{ text-decoration: none; }
+#dt .clearer 											{ clear: both; }
+#dt legend, #dt h4 										{ font-size: 18px; font-weight: normal; }
+#dt h3 													{ font-weight:normal; }
+#dt h4 													{ margin-bottom: 19px; margin-top: 4px; }
+#dt h5 													{ font: bold 15px Georgia, "Times New Roman", Times, serif; color: #5f7176; text-shadow: #fff 0 1px 0; }
+#dt h6 													{ color: #666; text-shadow: #fff 0 1px 0; font: bold 11px Georgia, "Times New Roman", Times, serif; margin-bottom: 10px; }
+
+/* Menu CSS */
+#dt #dt-tabbed-area .left-area 							{ display:block; padding: 0; margin: 1px 0 0; margin-bottom:0px; width:100%; text-shadow: #fff 0 1px 0px; }
+#dt.main .left-area ul 									{ border-top: 1px solid #e0e2e2; border-bottom: 1px solid #e0e2e2; }
+#dt.main .left-area ul li 								{ width:auto; float:left; }
+#dt.main .left-area ul li a.active 						{ border: 1px solid #e5e5e5; }
+#dt .left-area ul li 									{ }
+#dt .left-area ul li a 									{ display: block; padding-top: 10px; padding-bottom: 10px; padding-left: 15px; padding-right:15px; font-weight: bold; color:#000; }
+#dt .left-area ul li a.active 							{ color: #0074a2; position: relative; z-index: 2; border-left: 1px solid #d2e5ee; border-right: 1px solid #d2e5ee; /*padding-top: 10px; padding-bottom: 10px;*/ background-color: #fff; margin: -1px -1px -1px -1px; }
+#dt .left-area ul li span.inactive 						{ display: block; padding-top: 10px; padding-bottom: 10px; padding-left: 15px; padding-right:15px; font-weight: bold; color:#999999; }
+
+/* Main Area */
+#dt #dt-tabbed-area .right-area 						{ display:block; }
+#dt.main legend 										{ color: #000; font-size: 20px; font-weight: normal; font-family:'Open Sans'; padding-top:30px; padding-bottom:10px; border-bottom: 1px solid #e0e2e2; margin-bottom:20px; }
+.validation 											{ color:#b90909 !important; margin-bottom:0px !important; }
+
+/* Form CSS */
+#dt.main fieldset 										{ margin-bottom:20px; }
+#dt fieldset 											{  }
+#dt input.checkbox 										{ vertical-align: middle; margin-bottom: 4px; margin-right: 4px; }
+#dt input.text, #dt #dt-ad-set-input-area input 		{ border: 1px solid #d3d3d3; background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff)); background: -moz-linear-gradient(top, #f9f9f9, #fff); width:auto; margin-right: 5px; }
+#dt input.text-array 									{ border: 1px solid #d3d3d3; background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff)); background: -moz-linear-gradient(top, #f9f9f9, #fff); margin-right: 5px; width: 350px; }
+#dt textarea.textarea 									{ border: 1px solid #d3d3d3; background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#fff)); background: -moz-linear-gradient(top, #f9f9f9, #fff); margin-top: 5px; margin-bottom: 5px; height: auto; width: 100%; }
+#dt select.list 										{ width: 30%; margin-right: 5px; }
+#dt .button 											{ background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc)); background: -moz-linear-gradient(top, #fff, #ccc); border-color: #ccc; }
+#dt .button:active 										{ background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#fff)); background: -moz-linear-gradient(top, #ccc, #fff); }
+#dt .button:hover 										{ border: 1px solid #aaa; color: #5f7176; }
+.dtbutton 												{ margin-top: 0px; }
+.iubutton 												{ cursor:pointer; cursor:hand; padding-left:5px; padding-right:5px; }
+.inputholder 											{ display:block; clear:both;}
+.inputholder.bottomgap 									{ margin-bottom:25px !important; }
+#dt.main input.text:focus 								{ background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)); background: -moz-linear-gradient(top, #fff, #fff); border: 1px solid #aaa; }
+#dt.main textarea.textarea:focus 						{ background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)); background: -moz-linear-gradient(top, #fff, #fff); border: 1px solid #aaa; }
+
+/* Settings Area CSS */
+#dt .dt-setting 										{ padding-top: 6px; padding-bottom: 6px; }
+#dt-form .dt-setting 									{ position: relative; }
+.dt-setting label 										{ margin:0; padding:0; display:block; width:auto; text-align:left; vertical-align:middle; margin-bottom:5px !important; margin-left:3px !important; font-weight:bold;  }
+.dt-setting input, 
+.dt-setting select										{ display:block; height:35px; }
+p.labeldesc												{ margin:0; padding:0; line-height:11px; font-size:11px; font-style:italic; margin-left:3px; margin-top:3px !important; margin-bottom:7px !important; color:#727171; }
+.left													{ float:left; }
+
+/* New Form Overrides */
+#mobilemenuhead											{ display:none; }
+.dt-setting input										{ width:180px; }
+.dt-setting input.full, .dt-setting select.full			{ width:430px; }
+.dt-setting input.small, .dt-setting select.small		{ width:150px; }
+.dt-setting input.medium, .dt-setting select.medium		{ width:300px; }
+.dt-setting input.numberinput							{ width:120px; }
+.dt-setting select.numberinput							{ width:239px; margin-left:5px; }
+.dt-setting input.colourinput							{ width:120px; height:35px; padding:5px; }
+.dt-setting select.colorselector						{ width:200px; margin-left:5px; }
+.dtbutton												{ width:auto !important; }
+
+/* New Description Header */
+.description-instruct									{ display:block !important; height:auto !important; width:100% !important; padding-bottom:30px !important; margin-bottom:25px !important; padding-top:10px !important; border-bottom: 1px solid #e0e2e2 !important; }
+
+/* Footer Link CSS */
+p#dt-trademark 											{ color: #bbc4c5; margin-top:10px; text-align: right; }
+p#dt-trademark em 										{ color: #99a2ab; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+		/* Menu CSS */
+		#dt .left-area ul li a 									{ font-size:12px; padding-left:7px; padding-right:7px; }
+		
+	}
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+    
+		/* Menu CSS */
+		#dt.main .left-area ul 									{ border-top: none; border-bottom: none; }
+		#dt.main .left-area ul li 								{ width:100%; float:none; }
+		#dt.main .left-area ul li a.active 						{ border: 1px solid #e5e5e5; }
+		
+		/* New Header */
+		div#dt_main_header										{ width:100%; height:auto; margin-top:10px; padding-top:10px; padding-bottom:10px; margin-bottom:20px; }									
+		h2.dt_header 											{ font-size:20px; }
+		.request												{ font-size:12px; line-height:2;}
+		#mobilemenuhead											{ display:block; width:100%; padding-top:0px !important; }
+
+		/* Form CSS */
+		.dt-setting input.full, .dt-setting select.full			{ width:100%; font-size:12px; }
+		.dt-setting input.small, .dt-setting select.small		{ width:100%; font-size:12px; }
+		.dt-setting input.medium, .dt-setting select.medium		{ width:100%; font-size:12px; }
+		#dt input, #dt select									{ font-size:12px; }
+		.dt-setting select.numberinput							{ width:149px; }
+		.dt-setting select.colorselector						{ width:110px; }
+
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    
+    }
+
+
+/* Clearing */ 
+.clear													{ clear:both; }
