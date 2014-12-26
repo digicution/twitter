@@ -1,17 +1,21 @@
-=== Digicution Simple Twitter Feed ===
-Contributors: digicution
-Donate link: http://www.digicution.com/
-Tags: twitter,feed,tweet,simple,list,display,digicution
-Requires at least: 3.1
-Tested up to: 3.9
+Digicution Simple Twitter Feed (Wordpress Plugin)
+==============
+
+Requires at least: Wordpress 3.1
+
+Tested up to: Wordpress 3.9
+
 Stable tag: 1.4.2.8
+
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This plugin provides a simple list of Tweets from a users screen name for usage within your Wordpress Blog or Template.
 
 
-== Description ==
+Description
+==============
 
 * Brand New Wordpress 3.8 Responsive Interface Design - Fully Backwards Compatible With Earlier Wordpress Releases.
 
@@ -55,7 +59,8 @@ PHP's mcrypt library is also recommended but not essential.
 Serbian Translation courtesy of Borisa Djuraskovic from http://www.webhostinghub.com
 
 
-== Installation ==
+Installation
+==============
 
 1. Upload the folder 'digicution-simple-twitter-feed' to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
@@ -70,9 +75,11 @@ Serbian Translation courtesy of Borisa Djuraskovic from http://www.webhostinghub
 11. Congrats, You've just added the Twitter Feed to your website :)
 
 
-== Frequently Asked Questions ==
+Frequently Asked Questions
+==============
 
-= What’s this Twitter App shenanigans?  How do I create a Twitter App? =
+What’s this Twitter App shenanigans?  How do I create a Twitter App?
+--------------
 
 1.  Head to https://dev.twitter.com/
 2.  Login
@@ -82,7 +89,8 @@ Serbian Translation courtesy of Borisa Djuraskovic from http://www.webhostinghub
 6.  Now, it'll take a minute or two but you should then be able to access your app from the avatar in the top right -> "My Applications"
 7.  When you click on your app on this page, it will give you all sorts of info on the page.  The bits you need are: Access Token, Access Token Secret, Consumer Key, Consumer Secret
 
-= I have the correct access tokens and consumer keys but my feed displays Tweets from a completely different user plus they seem to be static Tweets and don't update. Is there something I need to do to make this work? =
+I have the correct access tokens and consumer keys but my feed displays Tweets from a completely different user plus they seem to be static Tweets and don't update. Is there something I need to do to make this work?
+--------------
 
 You've probably still got the default user setup (should be tweets from me :).
 
@@ -95,77 +103,84 @@ You've probably still got the default user setup (should be tweets from me :).
 
 Once you've done this, you should be golden :)
 
-= My Tweets aren't showing?  What's going on? =
+My Tweets aren't showing?  What's going on?
+--------------
 
 OK, Double check... No, triple check that you have the correct Access Token, Access Token Secret, Consumer Key & Consumer Secret from your Twitter App entered correctly in the main app setup screen.  If you're sure you've done this and you're still hvaing issues, please drop me an email via http://www.digicution.com/contact and I'll get back to you asap.
 
-= My Tweets are showing but they aren't mine?  Eh? =
+My Tweets are showing but they aren't mine?  Eh?
+--------------
 
 Please make sure that you have added YOUR Twitter Username into the Twitter Username option on the General Settings page.
 
-= My Tweet Follow Buttons are not showing, only the link text is being displayed? =
+My Tweet Follow Buttons are not showing, only the link text is being displayed?
+--------------
 
 This means that the app cannot reach Twitter's API server from your client machine.  Double check you haven't got any apps that are blocking access.  One that has been found to do so is the Avast Anti Virus Browser Plugin.  There is a setting within the Avast plugin titled "Block social networks by default".  Disable this and you should be golden.  Unfortunately, this is a client side restriction so there's nothing that can be done about it at present - this would be the same if you were to use Twitter's native Follow button :(
 
-= I have a question, bug or feature request...  Where can I submit it? =
+I have a question, bug or feature request...  Where can I submit it?
+--------------
 
 No problemo, just head to http://www.digicution.com/contact/ and submit the contact form with your question/bug/request - I'll get back to you as soon as I possibly can :)
 
 
-== Screenshots ==
+Changelog
+==============
 
-1. Tweet Appearance Menu (New Layout)
-2. General Settings Menu (Mobile Layout Example)
-3. Widget Appearance
-4. Example 1
-5. Example 2
-6. Example 3
-
-
-== Changelog ==
-
-= 1.4.2.8 =
+1.4.2.8
+--------------
 * Fixed 'line-height' bug if Tweet Font Size set to 'ems'.  Thanks to Ian Clarke for highlighting the issue.
 * Added @Screenname option to Follow Buttons (Header & Footer).  Extra request from Ian Clarke.
 
-= 1.4.2.7 =
+1.4.2.7
+--------------
 * Changed Tweet ID to use ‘id_str’ instead as original number could cause erronous input on some PHP installations.
 
-= 1.4.2.6 =
+1.4.2.6
+--------------
 * Changed Tweet UTC datetime difference calculation to work outside of Wordpress date functions to create correct difference across timezones.  Thanks to Maciek Nowakiewicz for highlighting the issue.
 
-= 1.4.2.5 =
+1.4.2.5
+--------------
 * Changed Tweet refresh UTC date storage in DB to that of Wordpress Installation rather than the MySQL Server as the 2 server setups could be in different timezones.  Thanks to Maciek Nowakiewicz for highlighting the issue.
 
-= 1.4.2.4 =
+1.4.2.4
+--------------
 * Amended order of Twitter Key Entries to match those on dev.twitter.com and renamed Consumer to API for easier entry (and less confusing for user).  Thanks to Jesse Everett for pointing out the issue.
 
-= 1.4.2.3 =
+1.4.2.3
+--------------
 * Fixed minor bug so plugin now outputs the correct CSS if using Twitter Icons (& Automatic Styling) within the plugin.  Thanks to Rajat Soni for pointing out the issue.  
 * Also removed some extra redundant code and renamed the CSS output function to something more unique to help avoid duplication errors.
 
-= 1.4.2.2 =
+1.4.2.2
+--------------
 * Fixed Minor Display Bug When "Display Follow Link In Header" was set to "Text Link".
 
-= 1.4.2.1 =
+1.4.2.1
+--------------
 * Removed 2 redundant header functions that may have caused duplication error messages in some setups.
 
-= 1.4.2 =
+1.4.2
+--------------
 * Fixed bug with shortcode where it would display above content if placed within a page or post.  This was due to the content being printed rather than returned.  Thanks to Michael Entwistle for pointing out the issue.
 * Serbian Translation added to the plugin.  Thanks to Borisa Djuraskovic from http://www.webhostinghub.com for providing the Serbian translation.
 
-= 1.4.1 =
+1.4.1
+--------------
 * Added language files (.mo & .po) for easier translation purposes.  If you fancy translating this plugin, there is a template file now in the languages folder which should enable you to use POEdit to translate.  Please feel free to translate and submit your .po files for inclusion in the plugin :)
 * Update Menu Logo SVG Colour 
 
-= 1.4 =
+1.4
+--------------
 * Added SVG Icons For Tweet Reply, Retweet, Favourite & Expand (Request From Rajat Soni)
 * Added Customisation Options For Above Icons
 * Standardised Output For Text Versions Of Tweet Reply, Retweet, Favourite & Expand
 * Fixed Bug With Tweet Font Size In Ems
 * Added Support For Twitter's UTC Offset - Now Displays Correct Tweet Dates Worldwide (Request From Rajat Soni)
 
-= 1.3 =
+1.3
+--------------
 * Added SVG Menu & Header Icons For Wordpress 3.8 Support
 * Added Responsive Design For Easy Use On Mobile / Tablet
 * Changed Interface Design For Backend To Work Smoother With Responsive & Wordpress 3.8 Design
@@ -173,10 +188,12 @@ No problemo, just head to http://www.digicution.com/contact/ and submit the cont
 * Added Version Checking For Menu Icons (Backwards Compatibility)
 * Added Extra Description's On Option Page Headers To Assist Users As To What Each Page Does (Request)
 
-= 1.2 =
+1.2
+--------------
 * Fixed JS Bug In admin.js
 
-= 1.1 =
+1.1
+--------------
 * Added Universal Language Support
 * Added Support For Twitter Profile Image Border Radius
 * Added Support For Main Container Border Radius
@@ -186,20 +203,26 @@ No problemo, just head to http://www.digicution.com/contact/ and submit the cont
 * Fixed Styling Multi-Unit Bug
 * Changed Container Padding Settings To Make Styling Easier (& Universal)
 
-= 1.0 =
+1.0
+--------------
 * First version of the plugin.
 
 
-== Upgrade Notice ==
+Upgrade Notice
+==============
 
-= 1.4 =
+1.4
+--------------
 Upgrade For SVG Tweet Icon Support & Native Twitter UTC Date Support
 
-= 1.3 =
+1.3
+--------------
 Upgrade For Wordpress 3.8 & Mobile Device Support With A Shiny New Interface :)
 
-= 1.2 =
+1.2
+--------------
 Upgrade For JS Fix
 
-= 1.1 =
+1.1
+--------------
 Upgrade For Bugfixes, Added Border Radius Support On Twitter Profile Images & Universal Language Support
